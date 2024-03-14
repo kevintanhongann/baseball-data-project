@@ -99,13 +99,16 @@ plt.show()
 
 
 # Predicting Runs using other hitting stats
-# X = hitting_data[['At-bat', 'Hits', 'home run', 'run batted in']]
-# y = hitting_data['Runs']
-# model = LinearRegression().fit(X, y)
+X = hitting_data[['At-bat', 'Hits', 'home run', 'run batted in']]
+y = hitting_data['Runs']
+model = LinearRegression().fit(X, y)
 
-# Assuming 'predictions' is a list of predicted values
+# Get predicted values
+predictions = model.predict(X)
+
 plt.scatter(range(len(y)), y, label='Actual')
-plt.scatter(range(len(predictions)), predictions, label='Predicted', color='red')
+plt.scatter(range(len(predictions)), predictions,
+            label='Predicted', color='red')
 plt.legend()
 plt.title('Actual vs Predicted Runs')
 plt.show()
