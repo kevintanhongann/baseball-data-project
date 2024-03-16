@@ -33,3 +33,7 @@ Source: Conversation with Bing, 3/15/2024
 (4) Understanding Every Baseball Position and Their Role. https://baseballtrainingworld.com/understanding-every-baseball-position-and-their-role/
 
 I suppose from the hitting data correlation chart, one will be able to tell what sort of player profiles the baseball players have?
+
+Some things to learn about Python and baseball analytics - https://www.youtube.com/watch?v=yZXP2WvrW3Q
+Lahman's baseball database http://www.seanlahman.com/
+
